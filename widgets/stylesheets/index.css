@@ -1,0 +1,106 @@
+.clock{
+	background-color: orange;
+	color: white;
+	font-size: 28px;
+	border: black solid 4px;
+	font-weight: bold;
+	width: 550px;
+	height:94px;
+	margin: 0 20px 20px 20px ;
+	padding: 10px;
+	background-size: cover;
+	background-position-y: 20% ;
+
+
+		
+
+}
+
+.clock p{
+	margin: 12px;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+.tabs{
+	width: 240px;
+	height:200px;
+}
+
+
+.tab-content{
+	background-color: blue;
+	color: white;
+	height:192px;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid  black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	font-size: 15px;
+	font-weight: bold;
+	margin: 0 20px ;
+	padding: 10px;
+	background-size: cover;
+	
+}
+
+.tab-header{
+	width:200px;
+	height: 30px;
+	margin: 0 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.tab-header>li{
+	width:65px;
+	border-top: 2px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 2px solid black;
+	border-top-left-radius:10px;
+	border-top-right-radius: 10px;
+	padding-top: 4px;
+	text-align: center;
+	cursor:pointer;
+	background-color: lightpink;
+	list-style-type: none;
+
+}
+
+.tab-header > li:first-child{
+border-left: 2px solid black;
+}
+
+.tab-header >li:last-child{
+border-right: 2px solid black;
+}
+
+.tab-header >li:hover{
+background-color: black;
+color: white;
+}
+
+
+.active{
+	font-weight: bold;
+}
+
+.tab-content article{
+	text-align: center;
+}
+
+body{
+	display: flex;
+	justify-content: space-around;
+}
+
+.interactive{
+	display: flex;
+	justify-content: space-around;
+}
